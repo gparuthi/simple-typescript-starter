@@ -42,3 +42,12 @@ Format your code.
 
 Format your code in watch mode, waiting for file changes.
 
+#### husky hooks
+
+```
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test && npm run prettier-format && npm run lint"
+    }
+  },
+```
